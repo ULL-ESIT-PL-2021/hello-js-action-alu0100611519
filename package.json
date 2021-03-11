@@ -1,41 +1,24 @@
 {
-  "name": "javascript-action",
+  "name": "hello-js-action-alu0100611519",
   "version": "1.0.0",
-  "description": "JavaScript Action Template",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
-    "prepare": "ncc build index.js -o dist --source-map --license licenses.txt",
-    "test": "jest",
-    "all": "npm run lint && npm run prepare && npm run test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/javascript-action.git"
+    "url": "git+https://github.com/ULL-ESIT-PL-2021/hello-js-action-alu0100611519.git"
   },
-  "keywords": [
-    "GitHub",
-    "Actions",
-    "JavaScript"
-  ],
-  "author": "",
-  "license": "MIT",
+  "keywords": [],
+  "author": "Norberto Garcia Gaspar <alu0100611519@ull.edu.es> (https://github.com/alu0100611519)",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/actions/javascript-action/issues"
+    "url": "https://github.com/ULL-ESIT-PL-2021/hello-js-action-alu0100611519/issues"
   },
-  "homepage": "https://github.com/actions/javascript-action#readme",
+  "homepage": "https://github.com/ULL-ESIT-PL-2021/hello-js-action-alu0100611519#readme",
   "dependencies": {
-    "@actions/artifact": "^0.5.0",
-    "@actions/cache": "^1.0.6",
     "@actions/core": "^1.2.6",
-    "@actions/exec": "^1.0.4",
-    "@actions/github": "^4.0.0",
-    "@actions/glob": "^0.1.1",
-    "@actions/tool-cache": "^1.6.1"
-  },
-  "devDependencies": {
-    "@vercel/ncc": "^0.27.0",
-    "eslint": "^7.4.0",
-    "jest": "^26.6.3"
+    "@actions/github": "^4.0.0"
   }
 }
