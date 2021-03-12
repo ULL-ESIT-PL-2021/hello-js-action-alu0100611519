@@ -19,7 +19,6 @@
   "homepage": "https://github.com/ULL-ESIT-PL-2021/hello-js-action-alu0100611519#readme",
   "dependencies": {
     "@actions/core": "^1.2.6",
-    "@actions/github": "^4.0.0",
-    "sshpk": "^1.16.1"
+    "@actions/github": "^4.0.0"
   }
 }
